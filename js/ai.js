@@ -1,6 +1,6 @@
 var Ai = function(){
 
-	var self = this, timer, enemy = self.enemy, queue = Interfaces.Queue(), level = 5;
+	var self = this, timer, enemy = self.enemy, queue = Interfaces.Queue(), level = 4;
 
 	enemy.bloodBar.event.listen( 'drain', function(){
 		timer.stop();
