@@ -109,7 +109,7 @@ var gameStart = function(){
 	
 		window.player1 = Spirit.getInstance( Config.Spirit.RYU1 );
 	
-		window.player2 = Spirit.getInstance( Config.Spirit.AI_RYU);
+		window.player2 = Spirit.getInstance( Config.Spirit.RYU2);
 	
 		player1.setEnemy( player2 );
 	
